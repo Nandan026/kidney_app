@@ -25,7 +25,7 @@ def delete_user(Email):
     c.execute("DELETE FROM userstable WHERE Email="+"'"+Email+"'")
     conn.commit()
 
-
+#Login Form
 menu = ["Home","Login","SignUp"]
 choice = st.sidebar.selectbox("Menu",menu)
 
